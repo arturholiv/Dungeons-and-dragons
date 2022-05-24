@@ -19,8 +19,8 @@ class Mage extends Archetype {
     return this._energyType;
   }
 
-  public static createdArchtypeInstances(): number {
-    return this._mageCount;
+  public static createdArchetypeInstances(): number {
+    return Mage._mageCount;
   }
 }
 
